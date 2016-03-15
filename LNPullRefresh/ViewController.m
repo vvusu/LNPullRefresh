@@ -31,7 +31,7 @@
 
 - (void)createView {
     self.webView.delegate = self;
-    self.webUrl = @"http://www.baidu.com";
+    self.webUrl = @"https://www.qq.com";
     __weak typeof(self) wSelf = self;
     [self.webView.scrollView addLegendHeaderWithRefreshingBlock:^{
         [wSelf webStartRelod];
