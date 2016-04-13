@@ -9,8 +9,6 @@ webView 页面调用
 
 刷新失败调用
 [webView.scrollView.header endRefreshingWithFail];
-
-这里明确声明：非常感谢MJRefresh 的作者提供的很好的框架，以表示敬意。
  
 
 ![](2015-04-15.gif)
